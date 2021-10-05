@@ -1,7 +1,7 @@
 # linted
 
 ## .vscode > settings.json
-
+`
 {
   "vetur.validation.template": false,
   "vetur.format.enable": false,
@@ -12,10 +12,10 @@
     "source.fixAll.stylelint": true
   },
 }
-
+`
 
 ## .eslintrc.js
-
+`
 module.exports = {
   // https://eslint.org/docs/user-guide/configuring#configuration-cascading-and-hierarchy
   // This option interrupts the configuration hierarchy at this file
@@ -95,3 +95,4 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
   }
 }
+`
